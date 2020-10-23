@@ -19,4 +19,10 @@ from . import views
 app_name = "Glizzymail"
 urlpatterns = [
 	path("", views.homepage, name= "homepage"),
+	path("register/", views.register, name="register"),
+    path("compose/", views.compose, name="compose"),
+	path("logout", views.logout_request, name="logout"),
+	path("login", views.login_request, name="login"),
+    path("inbox", views.Inbox, name="inbox"),
+
 ]
