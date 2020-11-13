@@ -1,0 +1,16 @@
+{% extends 'Glizzymail/header.html' %}
+
+{% block content %}
+
+    <div class="container">
+        <form method="POST">
+            {% csrf_token %}
+            {{value|safe}}
+            {{form.media}}
+            {{form.as_p}}
+            {{value|safe}}
+            <button style="background-color:green; color:white" class="btn btn-outline-info" type="submit">Send</button>
+
+        </form>
+    </div>
+{% endblock %}
