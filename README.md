@@ -1,4 +1,4 @@
-# Group-7
+# Glizzops
 
 William Prince (WilliamDPrince)
 Alexander Bui (alexbui831)
